@@ -1,0 +1,120 @@
+#head
+{
+    top:10%;
+    left:460px;
+    position:absolute;
+    width:590px;
+    height:100px;
+    background-image: url("C:\\Users\\owner\\Desktop\\programing\\imgg\\top.png");
+}
+
+#boxtop
+{
+    top:30%;
+    left :535px;
+    width:450px;
+    height:100px;
+    position: absolute;
+    background-image: url("C:\\Users\\owner\\Desktop\\programing\\imgg\\btop.png");
+    animation: a infinite 0.5s;
+}
+
+#boxbottom
+{
+    top:40%;
+    left :550px;
+    width:420px;
+    height:300px;
+    position: absolute;
+    background-image: url("C:\\Users\\owner\\Desktop\\programing\\imgg\\bottom.png");
+}
+
+#sheep1
+{
+    top:383px;
+    left:90px;
+    width:350px;
+    height:370px;
+    position: absolute;
+    opacity:0;
+    background-image:url("C:\\Users\\owner\\Desktop\\programing\\imgg\\y1.jpg");
+}
+
+#sheep2
+{
+    top:383px;
+    right:90px;
+    width:350px;
+    height:370px;
+    position: absolute;
+    opacity:0;
+    background-image:url("C:\\Users\\owner\\Desktop\\programing\\imgg\\y2.jpg");
+}
+#message
+{
+    top:40%;
+    left :580px;
+    width:350px;
+    height:300px;
+    position: absolute;
+    background-image: url("C:\\Users\\owner\\Desktop\\programing\\imgg\\hbd.png");
+}
+#message:hover{
+    transform: scale(1.8);
+    transition: 0.5s;
+}
+
+@keyframes a{
+    from {
+        transform:rotate(3deg);
+      }
+      to {
+        opacity: rotate(-5deg);
+      }
+}
+
+@keyframes b{
+    from
+    {
+        left:535px;
+        opacity:1;
+    }
+    to
+    {
+        left:635px;
+        opacity:0;
+    }
+}
+
+@keyframes c{
+    from
+    {
+        left:550px;
+        opacity:1;
+    }
+    to
+    {
+        left:450px;
+        opacity:0;
+    }
+}
+@keyframes d{
+    from
+    {
+        left:-10px;
+    }
+    to
+    {
+        left:90px;
+    }
+}
+@keyframes e{
+    from
+    {
+        right:0px;
+    }
+    to
+    {
+        right:90px;
+    }
+}
