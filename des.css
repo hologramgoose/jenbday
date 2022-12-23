@@ -5,7 +5,7 @@
     position:absolute;
     width:590px;
     height:100px;
-    background-image: url("C:\\Users\\owner\\Desktop\\programing\\imgg\\top.png");
+    background-image: url("imgg/top.png");
 }
 
 #boxtop
@@ -15,7 +15,7 @@
     width:450px;
     height:100px;
     position: absolute;
-    background-image: url("C:\\Users\\owner\\Desktop\\programing\\imgg\\btop.png");
+    background-image: url("imgg/btop.png");
     animation: a infinite 0.5s;
 }
 
@@ -26,7 +26,7 @@
     width:420px;
     height:300px;
     position: absolute;
-    background-image: url("C:\\Users\\owner\\Desktop\\programing\\imgg\\bottom.png");
+    background-image: url("imgg/bottom.png");
 }
 
 #sheep1
@@ -37,7 +37,7 @@
     height:370px;
     position: absolute;
     opacity:0;
-    background-image:url("C:\\Users\\owner\\Desktop\\programing\\imgg\\y1.jpg");
+    background-image:url("imgg/y1.jpg");
 }
 
 #sheep2
@@ -48,7 +48,7 @@
     height:370px;
     position: absolute;
     opacity:0;
-    background-image:url("C:\\Users\\owner\\Desktop\\programing\\imgg\\y2.jpg");
+    background-image:url("imgg/y2.jpg");
 }
 #message
 {
@@ -57,7 +57,7 @@
     width:350px;
     height:300px;
     position: absolute;
-    background-image: url("C:\\Users\\owner\\Desktop\\programing\\imgg\\hbd.png");
+    background-image: url("imgg/hbd.png");
 }
 #message:hover{
     transform: scale(1.8);
